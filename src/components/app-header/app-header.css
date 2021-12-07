@@ -1,0 +1,25 @@
+.table__header {
+    align-items: center;
+    display: flex;
+    border-bottom: 1px solid rgba(224, 224, 224, 1);
+    text-align: center;
+    padding: 10px 0;
+    height: 20px;
+    width: 100%;
+}
+.table__header_search {
+    display: inline;
+    margin-bottom: 20px;
+}
+.table__header_year {
+    flex: 1;
+    cursor: pointer;
+}
+
+.table__header_category,
+.table__header_firstname,
+.table__header_lastname,
+.table__header_age,
+.table__header_fullname {
+    flex: 2;
+}

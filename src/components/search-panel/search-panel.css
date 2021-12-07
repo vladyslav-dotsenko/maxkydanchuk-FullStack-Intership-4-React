@@ -1,0 +1,15 @@
+.table__header_search {
+    display: flex;   
+    justify-content: center;
+    padding: 10px 10px;
+    border-radius: 8px;
+    color: rgb(49, 47, 47);
+}
+input {
+    width: 300px;
+    height: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: #3a3838;
+  }
+  
