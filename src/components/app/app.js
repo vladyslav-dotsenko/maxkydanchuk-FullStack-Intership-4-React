@@ -42,11 +42,11 @@
     const value = 'year';
     
       if(sortOrder) {
-           const sortedAsc = prizesData.sort((a,b) =>  +a[value] - +b[value]);
+           const sortedAsc = filteredCountries.sort((a,b) =>  +a[value] - +b[value]);
            filteredCountries = sortedAsc;
       } 
       else  {
-           const sortedDesc = prizesData.sort((a,b) =>  +b[value] - +a[value]);
+           const sortedDesc = filteredCountries.sort((a,b) =>  +b[value] - +a[value]);
            filteredCountries = sortedDesc;
       }
 
